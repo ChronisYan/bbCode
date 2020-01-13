@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/supersecret', (req, res) => {
-	res.status(418).set('-x', 'Tea is good!').send("418 I'm a Teapot! Congrats you found the Super Sercet Path");
+	res.status(418).set('X-Tea', 'Tea is good!').send("418 I'm a Teapot! Congrats you found the Super Sercet Path");
 });
 
 app.listen(port, () => {
