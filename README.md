@@ -12,5 +12,6 @@ MongoDB University:
 https://university.mongodb.com/
 
 YouTube Channels: 
-https://www.youtube.com/user/TechGuyWeb
-https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
+
+1. https://www.youtube.com/user/TechGuyWeb
+2. https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw
