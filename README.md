@@ -1,6 +1,5 @@
 # bbCode
-learn code notes
-Free Resources:
+Learn to Code
 
 
 FreeCodeCamp:
