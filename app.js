@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 	res.send('Welcome to bbCode my  Dudes');
 });
 
-app.get('/supersecret', (req, res) => {
+app.get('/teaparty', (req, res) => {
 	res.status(418).set('X-Tea', 'Tea is good!').send("418 I'm a Teapot! Congrats you found the Super Sercet Path");
 });
 
