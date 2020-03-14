@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-	res.send('Welcome to bbCode my  Dudes');
+	res.send('<h1>Welcome to bbCode my  Dudes</1><a href="https://dev.to/chronisg"><img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Chronis Giannakakis\'s DEV Profile" height="30" width="30"></a>');
 });
 
 app.get('/supersecret', (req, res) => {
