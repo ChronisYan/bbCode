@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><%= title %></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="icon" href="/img/Laptop.svg" />
+  </head>
+  <body>
+    <%- include('partials/header.ejs'); %>
+
+    <h2>Welcome to bbCode my dudes!</h2>
+    <a href="https://dev.to/chronisg" target="_blank">
+      <img
+        src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg"
+        alt="Chronis Giannakakis's DEV Profile"
+        height="30"
+        width="30"
+      />
+    </a>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <%- include('partials/footer.ejs'); %>
+    <!-- <script src="" async defer></script> -->
+  </body>
+</html>
