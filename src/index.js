@@ -4,8 +4,10 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const path = require('path')
 const ejs = require('ejs')
+const helmet = require('helmet')
 
 const app = express()
+app.use(helmet())
 const port = process.env.PORT || 3000
 
 const publicDirPath = path.join(__dirname, '../public')
